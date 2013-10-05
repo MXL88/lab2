@@ -20,22 +20,88 @@ h1 {
 	font-size: 36px;
 	color: #116189;
 }
-
-.Motto {
-	font-style: italic;
-	font-size: 18px;
+.header {
+	margin-right: 10px;
+	padding: 20px;
+}
+.content {
+	background-color: #FFF;
+	margin-top: -20px;
 }
 
+.motto {
+	font-style: italic;
+	font-size: 120%;
+	margin-top: 10px;
+}
+
+/*bar*/
 nav {
 	background-color: #D74710;
 	color: #FFF;
+	margin: 10px;
+	margin-top: 18px;
+	margin-left: 8px;
+	border-radius: 4px;
+}
+
+
+nav li {
+	display: inline-block;
+}
+
+/*text*/
+nav a {
+	display: inline-block;
+	padding: 5px;
+	color: #FFF;
+	font-weight: bolder;
 }
 
 div {
 	background-color: #FFF;
 }
 
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+}
+
 .logo {
 	float: left;
-	margin-bottom: 20px; 
+	margin-right: 10px;
+}
+.a {
+	padding: 8px;
+	margin-right: -10px;
+}
+
+.pull-left {
+	float: left;
+	margin-right: 20px;
+}
+
+.pull-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.footer {
+	margin-top: 50px;
+	border-top-style: solid; 
+	border-top-color: #E5E5E5;
+	border-top-width: 1px;
+	border-top-margin: 10px;
+	font-style: italic;
+	font-size: 80%;
+}
+
+.email {
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 80%;
 }
